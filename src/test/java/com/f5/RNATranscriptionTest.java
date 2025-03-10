@@ -14,6 +14,6 @@ class RnaTranscriptionTest {
         String expectedRna = "CGAU";
         
     
-        assertEquals(expectedRna, RnaTranscription.transcribe(dna));
+        assertEquals(expectedRna, RNATranscription.transcribe(dna));
     }
 }
